@@ -11,27 +11,18 @@
     tools:context="com.tiredpapi.moo.MainActivity">
 
     <TextView
-        android:text="Number:"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/textViewNumber" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textViewNumber"
-        android:layout_alignParentStart="true"
-        android:id="@+id/textViewMessage" />
-
-    <Button
-        android:text="play "
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="195dp"
-        android:id="@+id/button2"
-        android:onClick="playButton"/>
+        android:id="@+id/textAndroidID" />
+
+    <Button
+        android:text="push"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/buttonPush"
+        android:onClick="buttonPushed"/>
 </RelativeLayout>

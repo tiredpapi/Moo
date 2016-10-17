@@ -16,13 +16,9 @@ public class MyFirebaseMessageService extends FirebaseMessagingService {
     public void onMessageReceived(RemoteMessage remoteMessage) {
         super.onMessageReceived(remoteMessage);
 
-        Log.i(LogTag.LOG_TAG, "Message recieved");
+        Log.i(Constant.LOG_TAG, "Message recieved");
 
         MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.cow);
         mediaPlayer.start();
-
-        LogTag.number++;
-
-
     }
 }
